@@ -15,8 +15,3 @@ Projeto desenvolvido em Python com foco em criação de um agente inteligente ca
 - Estrutura modular
 - Armazenamento em JSON
 
-
-# ▶ Como executar
-
-```bash
-python app.py
