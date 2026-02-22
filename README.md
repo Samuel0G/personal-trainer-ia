@@ -1,4 +1,4 @@
-# 🧠 Personal Trainer IA
+# 🧠 Personal Trainer 
 
 Projeto desenvolvido em Python com foco em criação de um agente inteligente capaz de:
 
