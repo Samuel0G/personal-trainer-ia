@@ -2,8 +2,11 @@
 def tmb_calculos(peso, altura, idade, sexo):
     if sexo.upper() == "M":
         return (10 * peso) + (6.25 * altura) - (5 * idade) + 5
+
+
     else:
         return (10 * peso) + (6.25 * altura) - (5 * idade) - 161
+
 
 #Calculando gasto com base no nivel de atividade
 def tmb_total(tmb, nivel_atividade):
@@ -14,3 +17,8 @@ def tmb_total(tmb, nivel_atividade):
         "intenso": 1.725
     }
     return tmb * fatores.get(nivel_atividade.lower(), 1.2)
+
+#Cálculo de IMC
+def calcular_imc(peso, altura):
+    altura_m = altura / 100
+    return peso / (altura_m ** 2)

@@ -1,18 +1,28 @@
 #Geração de treino
 def Treino(objetivo):
-    if objetivo.lower() == "emagrecer":
+    objetivo = objetivo.lower()
+
+    if objetivo == "emagrecer":
         return """
-Treino ABC:
-A - Peito + Triceps + 20min Cardio
-B - Costas + Biceps + 20min Cardio
-C - Pernas + 25min Cardio
+Treino ABC + Cardio:
+A - Peito + Triceps + 20-30min cardio moderado
+B - Costas + Biceps + 20-30min cardio
+C - Pernas + HIIT 15min
+Foco: Déficit calórico + alta frequência.
 """
-    elif objetivo.lower() == "hipertrofia":
+
+    elif objetivo == "hipertrofia":
         return """
-Treino ABC:
-A - Peito + Triceps (carga progressiva)
-B - Costas + Biceps
-C - Pernas (foco em agachamento e levantamento)
+Treino ABC focado em sobrecarga progressiva:
+A - Peito + Triceps (6-12 reps)
+B - Costas + Biceps (6-12 reps)
+C - Pernas (agachamento, levantamento terra)
+Foco: Progressão de carga + superávit calórico.
 """
-    else:
-        return "Treino funcional 3x por semana."
+
+    elif objetivo == "manter":
+        return """
+Treino Full Body 3x por semana:
+Exercícios compostos + intensidade moderada.
+Foco: manutenção de massa e saúde geral.
+"""
