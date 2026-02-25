@@ -1,6 +1,6 @@
 # 🧠 Personal Trainer 
 
-Projeto desenvolvido em Python com foco em criação de um agente inteligente capaz de:
+Projeto desenvolvido em Python com foco em criação de um motor inteligente capaz de:
 
 - Calcular Taxa Metabólica Basal (TMB)
 - Calcular gasto calórico diário
