@@ -6,9 +6,7 @@ from memoria import salvar
 print("--- AGENTE IA PERSONAL TRAINER ---")
 
 
-# ==============================
-# FUNÇÕES DE VALIDAÇÃO
-# ==============================
+#--- FUNÇÕES DE VALIDAÇÃO ---
 
 def perguntar_int(mensagem):
     while True:
@@ -32,9 +30,9 @@ def perguntar_opcao(mensagem, opcoes):
         print(f"⚠️ Escolha apenas entre: {', '.join(opcoes)}")
 
 
-# ==============================
-# ENTRADAS DO USUÁRIO
-# ==============================
+
+# --- ENTRADAS DO USUÁRIO ---
+
 
 idade = perguntar_int("Idade: ")
 peso = perguntar_float("Peso (kg): ")
@@ -53,9 +51,9 @@ objetivo = perguntar_opcao(
 )
 
 
-# ==============================
-# PROCESSAMENTO
-# ==============================
+
+# --- PROCESSAMENTO ---
+
 
 tmb = tmb_calculos(peso, altura, idade, sexo)
 gasto_total = tmb_total(tmb, nivel)
@@ -64,9 +62,8 @@ treino = Treino(objetivo)
 imc = calcular_imc(peso, altura)
 
 
-# ==============================
-# RESULTADOS
-# ==============================
+# --- RESULTADOS ---
+
 
 print("\n--- RESULTADOS ---")
 print(f"IMC: {imc:.2f}")
@@ -77,9 +74,8 @@ print("\nTreino sugerido:")
 print(treino)
 
 
-# ==============================
-# SALVAR MEMÓRIA
-# ==============================
+# --- SALVAR MEMÓRIA ---
+
 
 salvar({
     "idade": idade,
