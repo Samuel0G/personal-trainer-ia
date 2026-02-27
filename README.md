@@ -1,12 +1,20 @@
-# 🧠 Personal Trainer 
+# Personal Trainer 
 
-Projeto desenvolvido em Python com foco em criação de um motor inteligente capaz de:
+Aplicação desenvolvida em Python com foco em modelagem de regras de negócio para planejamento nutricional e sugestão de treino.
 
-- Calcular Taxa Metabólica Basal (TMB)
-- Calcular gasto calórico diário
-- Gerar plano de treino
-- Sugerir ingestão calórica
-- Armazenar progresso do usuário
+O sistema simula um motor de prescrição fitness baseado em cálculo metabólico, ajuste calórico inteligente e distribuição de macronutrientes.
+
+- Cálculo de Taxa Metabólica Basal (TMB)
+
+- Cálculo de Gasto Energético Total (GET)
+
+- Ajuste calórico 
+
+- Distribuição automática de macronutrientes
+
+- Cálculo de IMC
+
+- Sugestão de treino baseada no objetivo
 
 # 🚀 Tecnologias utilizadas
 
