@@ -69,7 +69,7 @@ dados_usuario = {
 }
 
 resultados = {
-    "imc": imc,
+    "imc": round(imc, 2),
     "calorias": plano['calorias'],
     "proteina": plano['proteina'],
     "gordura": plano['gordura'],

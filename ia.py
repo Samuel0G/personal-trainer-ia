@@ -2,7 +2,7 @@ import ollama
 
 def gerar_relatorio_ia(dados_usuario, resultados):
 
--- DADOS PARA IA --
+#-- DADOS PARA IA --
 
     prompt = f"""
 Você é um coach estilo Growth.
@@ -28,7 +28,7 @@ Proteína: {resultados['proteina']} g
 Gordura: {resultados['gordura']} g
 Carboidrato: {resultados['carboidrato']} g
 """
--- ESPECIFICAÇÕES PARA IA --
+#-- ESPECIFICAÇÕES PARA IA --
     response = ollama.chat(
         model='llama3',
         messages=[{'role': 'user', 'content': prompt}],
