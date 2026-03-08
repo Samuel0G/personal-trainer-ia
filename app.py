@@ -2,7 +2,11 @@ from calculos import tmb_calculos, tmb_total, calcular_imc
 from treino import Treino
 from dieta import plano_nutricional
 from memoria import salvar
+<<<<<<< HEAD
 
+=======
+from ia import gerar_relatorio_ia
+>>>>>>> 3b7db9d901ae4bad8011eb5812045fec0e8db8e3
 
 print("--- AGENTE IA PERSONAL TRAINER ---")
 
@@ -76,6 +80,14 @@ resultados = {
     "carboidrato": plano['carboidrato']
 }
 
+<<<<<<< HEAD
+=======
+relatorio = gerar_relatorio_ia(dados_usuario, resultados)
+
+print("\n--- ANÁLISE PERSONALIZADA ---\n")
+print(relatorio)
+
+>>>>>>> 3b7db9d901ae4bad8011eb5812045fec0e8db8e3
 # --- RESULTADOS ---
 
 
