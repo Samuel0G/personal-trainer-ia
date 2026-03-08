@@ -18,24 +18,6 @@ Interface simples via terminal ou web
 
 Organização modular do código
 
-🧱 Estrutura do Projeto
-personal-trainer-ia
-│
-├── app.py              # Arquivo principal do sistema
-├── web_app.py          # Interface web do sistema
-├── treino.py           # Lógica de geração de treinos
-├── dieta.py            # Lógica de recomendações de dieta
-├── calculos.py         # Cálculos metabólicos e calóricos
-├── memoria.py          # Estrutura para armazenamento de dados
-│
-├── templates/
-│   └── index.html      # Interface HTML
-│
-├── static/
-│   └── style.css       # Estilo da interface
-│
-├── requirements.txt    # Dependências do projeto
-└── README.md
 ⚙️ Requisitos
 
 Python 3.8 ou superior
@@ -49,9 +31,6 @@ python app.py
 Executar interface web
 python web_app.py
 
-Depois abra no navegador:
-
-http://localhost:5000
 🧮 O que o sistema calcula
 
 O programa utiliza fórmulas tradicionais de nutrição para:
